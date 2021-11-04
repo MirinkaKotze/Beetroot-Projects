@@ -1,0 +1,120 @@
+/*header*/
+.header {
+  background-color: #91cfb8;
+  padding: 1px;
+}
+.header__title {
+  text-align: center;
+  font-size: 50px;
+}
+.header__subtitle {
+  text-align: right;
+  padding-right: 30px;
+}
+
+/*background-image*/
+.hero__image {
+  background-image: url(/Lesson5-HTML5/assets/images/background.png);
+  background-color: white;
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*background-image text position*/
+.main__index {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+/*background-image text-styles*/
+.index {
+  font-weight: 800;
+  font-size: 30px;
+  padding-top: 100px;
+}
+.index__list {
+  padding: 40px 20px 20px 20px;
+}
+
+/*heading styles*/
+.main__heading {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  font-weight: 800;
+  background-color: #91cfb8;
+  padding: 5px;
+}
+
+/*table position*/
+.main__table {
+  width: 90%;
+  margin-left: 5%;
+}
+
+/*table styles*/
+.table {
+  background-color: #e0f8eb;
+  border: solid 2px black;
+  padding: 5px;
+  border-collapse: collapse;
+}
+.table__heading--item {
+  padding: 10px;
+  font-size: 25px;
+  border: solid 3px black;
+  border-collapse: collapse;
+}
+.table__list--item {
+  border: solid 2px black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/*profile img-position*/
+.main_contact--img {
+  padding: 0px 10px 30px 500px;
+}
+
+/*profile img-styles*/
+.contact__img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/*form position*/
+.main_contact--form {
+  padding: 0px 10px 30px 350px;
+}
+
+/*form styles*/
+.contact__form--item {
+  padding: 10px;
+  width: 500px;
+  font-size: 20px;
+}
+.contact__form--submit {
+  width: 100px;
+  background-color: #91cfb8;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/*footer styles*/
+.footer {
+  background-color: #91cfb8;
+  padding: 1px;
+}
+.footer__title {
+  text-align: center;
+  font-size: 30px;
+}

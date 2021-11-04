@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Shop</title>
+
+    <link
+      rel="stylesheet"
+      href="/Lesson3-BEM_methology(class)/assets/style.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img
+          class="logo"
+          src="/Lesson3-BEM_methology(class)/assets/images/logo.jpg"
+          alt="duck logo"
+          srcset=""
+        />
+      </div>
+
+      <div class="nav">
+        <a href="#">Rana</a>
+        <a href="#">Raluca</a>
+        <a href="#">Hassen</a>
+        <a href="#">Mirinka</a>
+      </div>
+    </header>
+
+    <div class="login">
+      <h2>Login</h2>
+
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+        <br />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+        <br />
+        <br />
+
+        <input type="submit" value="Submit" />
+      </form>
+      <br />
+      <label class="container">
+        <input type="checkbox" checked="checked" /> Remember me
+        <span class="checkmark"></span>
+      </label>
+    </div>
+
+    <div class="event">
+      <h2>Event</h2>
+      <div class="sign-in">
+        <button type="button" onclick="alert('Sign in with facebook')">
+          Sign in with Facebook
+        </button>
+        <button type="button" onclick="alert('Sign in with Google')">
+          Sign in with Google
+        </button>
+      </div>
+    </div>
+
+    <div class="video">
+      <h2>Video</h2>
+      <iframe
+        src="https://www.youtube.com/embed/39YqCLYELnM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div class="calendar">
+      <h1>Calendar</h1>
+      <iframe
+        src="https://calendar.google.com/calendar/embed?src=eg2jb3d4ua8abva1ij285miokk%40group.calendar.google.com&ctz=Europe%2FBucharest"
+        style="border: 0"
+        width="800"
+        height="600"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+    </div>
+  </body>
+</html>

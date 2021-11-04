@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Diary</title>
+
+    <link href="./assets/reset.css" rel="Reset-default-styles" />
+    <link href="./assets/index.css" rel="Stylesheet" />
+    <link href="./assets/images/icon.png" rel="icon" />
+  </head>
+  <body>
+
+    <header class="header">
+      <h1 class="header__title">Front End Course Diary</h1>
+      <h2 class="header__subtitle">By: Mirinka (Celliers) Kotze</h2>
+    </header>
+
+    <main>
+      <div class="hero__image">
+        <ul class="main__index index">
+          <li class="index__list">Course Structure</li>
+          <li class="index__list">Contact me</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="main__heading">Course Structure</h2>
+
+        <table class="main__table table">
+          <thead class="table__heading">
+            <tr>
+              <th class="table__heading--item">Lesson No</th>
+              <th class="table__heading--item">Topic</th>
+              <th class="table__heading--item">Classwork</th>
+              <th class="table__heading--item">Homework</th>
+            </tr>
+          </thead>
+          <tr class="table__list">
+            <td class="table__list--item">1</td>
+            <td class="table__list--item">Intro to HTML</td>
+            <td class="table__list--item">
+              <a href="/Lesson1-Intro_HTML(class)/">Media Profile</a>
+            </td>
+            <td class="table__list--item">
+              <a href="/Lesson1-Intro_HTML/">A Beach Holiday</a>
+            </td>
+          </tr>
+            <tr class="table__list">
+            <td class="table__list--item">2</td>
+            <td class="table__list--item">Intro to CSS</td>
+            <td class="table__list--item"></td>
+            <td class="table__list--item">
+              <a href="/Lesson2-Intro_CSS/">World Tours</a>
+            </td>
+          </tr>
+          <tr class="table__list">
+            <td class="table__list--item">3</td>
+            <td class="table__list--item">BEM Methodology</td>
+            <td class="table__list--item"><a href="/Lesson3-BEM_methology(class)/">Log-in Page</a></td>
+            <td class="table__list--item">
+              <a href="/Lesson3-BEM_methodology/">Disney Log-in</a>
+            </td>
+          </tr>
+          <tr class="table__list">
+            <td class="table__list--item">4</td>
+            <td class="table__list--item">BOX Model</td>
+            <td class="table__list--item"><a href="/Lesson4-BOX_model(class)/">Bike shop</a></td>
+            <td class="table__list--item"><a href="/Lesson4-BOX_model/">CV</a></td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="main_contact contact">
+        <h2 class="main__heading">Contact me</h2>
+        <img
+          class="main_contact--img contact__img"
+          src="./assets/images/profile.jpg"
+          alt="Profile Picture"
+        />
+        <form class="main_contact--form contact__form">
+          <div class="contact__form--item">
+            <input
+              class="contact__form--item"
+              type="text"
+              placeholder="Your name"
+              name="firstname"
+            />
+          </div>
+
+          <div class="contact__form--item">
+            <textarea
+              class="contact__form--item"
+              type="text"
+              placeholder="Your Message"
+              name="message"
+              rows="8"
+            >
+            </textarea
+            >Your message
+          </div>
+          <div class="contact__form--item">
+            <input class="contact__form--submit" type="submit" value="SUBMIT" />
+          </div>
+        </form>
+      </div>
+
+      <footer class="footer">
+        <h4 class="footer__title">Have a nice day!</h4>
+      </footer>
+    </main>
+  </body>
+</html>
