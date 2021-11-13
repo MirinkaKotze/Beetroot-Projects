@@ -1,0 +1,150 @@
+.container__pink {
+  background-color: pink;
+  width: 165vh;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/*--Block1--*/
+.yellow {
+  background-color: yellow;
+  width: 468px;
+  height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+.yellow--item {
+  background-color: grey;
+  width: 78px;
+  height: 78px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+/*--Block2--*/
+.green {
+  background-color: green;
+  width: 468px;
+  height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.green--item {
+  background-color: grey;
+  width: 78px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+/*--Block3--*/
+.maroon {
+  background-color: maroon;
+  width: 468px;
+  height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.maroon--item {
+  background-color: grey;
+  width: 78px;
+  height: 78px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+/*--Block4--*/
+.purple {
+  background-color: purple;
+  width: 468px;
+  height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.purple--item {
+  background-color: green;
+  width: 78px;
+  height: 78px;
+  margin: 10px;
+  border-radius: 4px;
+}
+.purple--item3 {
+  background-color: green;
+  width: 78px;
+  height: 78px;
+  margin: 10px;
+  border-radius: 4px;
+  align-self: flex-end;
+}
+
+/*--Block5--*/
+.white {
+  background-color: white;
+  width: 468px;
+  height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.white--item {
+  background-color: grey;
+  width: 78px;
+  margin: 10px;
+  border-radius: 4px;
+  text-align: end;
+  align-self: stretch;  
+}
+.white--item2 {
+  background-color: grey;
+  width: 78px;
+  height: 78px;
+  margin: 10px;
+  border-radius: 4px;
+  text-align: end;  
+}
+
+/*--Block6--*/
+.blue {
+  background-color: cornflowerblue;
+  width: 468px;
+  height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.blue--item {
+  background-color: white;
+  width: 78px;
+  height: 78px;
+  margin: 10px;
+  border-radius: 4px;
+}
+.blue--item2 {
+  background-color: white;
+  width: 78px;
+  height: 78px;
+  margin: 10px;
+  border-radius: 4px;
+  flex-grow: 1;
+}
