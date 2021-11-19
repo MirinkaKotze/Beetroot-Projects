@@ -65,9 +65,10 @@
   padding: 20px;
 }
 
-.header_list li a:hover {
+.header_list--item:hover {
   transform: rotate(20deg);
-  color: red;
+  font-size: x-large;
+  color: #ff7f57;
 }
 
 /* Grow Block Styles */
