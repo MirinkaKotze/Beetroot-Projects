@@ -1,0 +1,108 @@
+.screen {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+}
+
+.card__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffff;
+  border-radius: 20px;
+  max-width: 450px;
+  margin: 50px 50px 0px 50px;
+}
+.card__background-image {
+  border-radius: 20px 20px 0px 0px;
+  max-height: 400px;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+.card__heading {
+  font-size: 23px;
+  color: #1f2f56;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+.card__description {
+  color: #7280a7;
+  text-align: center;
+  margin: 0px 60px 30px 60px;
+  line-height: 25px;
+}
+.card__order {
+  background-color: #f5f7ff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin: 0px 30px 30px 30px;
+  max-width: 400px;
+}
+.card__order--info {
+  padding-left: 15px;
+}
+.card__order--info-name {
+  color: #1f2f56;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.card__order--info-price {
+  color: #7280a7;
+}
+.card__order--button {
+  color: #3829e0;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 120px;
+}
+.card__order--button:hover {
+  color: #7280a7;
+}
+.card__proceed--button {
+  border: none;
+  border-radius: 15px;
+  background-color: #3829e0;
+  color: #f5f7ff;
+  font-weight: 800;
+  padding: 20px;
+  width: 400px;
+  margin: 0px 30px 20px 30px;
+}
+.card__proceed--button:hover {
+  background-color: #e0e8ff;
+  color: #3829e0;
+}
+.card__cancel--button {
+  border: none;
+  background-color: #ffff;
+  color: #7280a7;
+  font-weight: 800;
+  padding: 10px;
+  width: 400px;
+  margin: 0px 20px 20px 20px;
+}
+.card__cancel--button:hover {
+  color: #3829e0;
+}
+
+.footer {
+  font-size: 11px;
+  text-align: right;
+  color: #1f2f56;
+  margin: 30px 10px 5px 10px;
+  padding-right: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
