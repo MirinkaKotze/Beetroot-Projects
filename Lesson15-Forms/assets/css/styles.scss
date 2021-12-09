@@ -1,0 +1,67 @@
+$background-color: #11364E;
+$button-color: #FF7F57;
+$text-color: #ffff;
+
+@font-face {
+    font-family: AvenirNext;
+    src: url(/assets/fonts/AvenirNextLTPro-Regular.otf);
+  }
+  
+.screen {
+    box-sizing: border-box;
+    background-color: $background-color;
+    font-family: "AvenirNext", serif;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.contact {
+    display:flex;
+    flex-direction: column;
+    min-width: 400px;
+
+    &__title {
+        color: $text-color;
+        font-size: 40px;
+        line-height: 52px;
+        letter-spacing: -0.5px;
+        border: none;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    &__label {
+        font-size: 13px;
+        line-height: 18px;
+        color: $text-color;
+        padding: 10px 0px 0px 0px;
+        margin: 3px 0px 3px 0px;
+    }
+
+    &__input {
+        border: 0;
+        border-bottom: solid 1px $text-color;
+        padding: 10px 0px 10px 0px;
+        font-size: 16px;
+        line-height: 22px;
+        color: $text-color;
+        opacity: 0.6;
+        margin-bottom: 30px;
+        background-color: $background-color;
+    }
+
+    &__submit {
+        background-color: $button-color;
+        border: none;
+        padding: 15px;
+        color: $text-color;
+        font-size: 17px;
+    }
+
+}
+
+
+
+
+
+
