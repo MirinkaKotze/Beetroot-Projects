@@ -1,0 +1,137 @@
+
+
+.screen {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;  
+    margin: 0;
+    padding: 0;  
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
+.new-account {
+    display:flex;
+    flex-flow: column;
+    max-width: 400px;
+    width: 100%;
+    
+    &__title {
+        border: 0;
+        border-bottom: lightgrey solid 2px;
+        background-color: #59bfff;
+        color: #ffff;
+        text-align: center;
+        font-size: 20px;
+        padding: 15px 30px 15px 30px;
+        border-radius: 10px 10px 0 0;
+        font-weight: 700;
+    }
+
+    &__info {
+        margin: 20px;
+        border-bottom: lightgrey solid 2px;
+       
+        &-icon {
+            color:lightgrey;
+            font-size: 30px;
+        }
+
+        &-input {
+            font-size: 17px;
+            padding: 10px;
+            border: 0;
+        }
+    }
+}    
+
+// Checkbox position
+.checkbox {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+// Checkbox container
+    &__container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        padding-bottom: 20px;
+        cursor: pointer;       
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }    
+
+    // Hide default checkbox
+    &__tickmark {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0; 
+
+        // Create a custom checkbox
+        &-custom {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #eee;        
+
+            // Create a custom tickmark
+            &:after {
+                content: "";
+                position: absolute;
+                display: none;                    
+            }                          
+        }
+    }
+}
+
+  // Checkmark styling
+.checkbox__container .checkbox__tickmark-custom:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+//   Show checkmark when checked
+.checkbox__tickmark:checked ~ .checkbox__tickmark-custom:after {
+    display: block;
+}
+
+/* Color on Hover */
+.checkbox__tickmark:hover  ~ .checkbox__tickmark-custom {
+background-color: #ccc;
+}
+
+/* Background when checked */
+.checkbox__tickmark:checked ~ .checkbox__tickmark-custom{
+background-color: #2196F3;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;    
+    margin-top: 40px;
+
+    &__button{
+        border: purple solid 1px;
+        border-radius: 5px;
+        background-color: purple;
+        color: #ffff;
+        font-size: 18px;
+        padding: 20px;     
+        font-weight: 700;   
+    }
+}

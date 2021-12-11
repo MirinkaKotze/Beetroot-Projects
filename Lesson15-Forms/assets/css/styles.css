@@ -1,0 +1,56 @@
+@font-face {
+  font-family: AvenirNext;
+  src: url(/assets/fonts/AvenirNextLTPro-Regular.otf);
+}
+.screen {
+  box-sizing: border-box;
+  background-color: #11364e;
+  font-family: "AvenirNext", serif;
+}
+
+.contact_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+}
+.contact__title {
+  color: #ffff;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: -0.5px;
+  border: none;
+  margin-top: 80px;
+  text-align: center;
+}
+.contact__label {
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffff;
+  padding: 10px 0px 0px 0px;
+  margin: 3px 0px 3px 0px;
+}
+.contact__input {
+  border: 0;
+  border-bottom: solid 1px #ffff;
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffff;
+  opacity: 0.6;
+  margin-bottom: 30px;
+  background-color: #11364e;
+}
+.contact__submit {
+  background-color: #ff7f57;
+  border: none;
+  padding: 15px;
+  color: #ffff;
+  font-size: 17px;
+}
+
+/*# sourceMappingURL=styles.css.map */
