@@ -1,0 +1,349 @@
+* {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* TOP BAR */
+/* container */
+.header {
+  max-width: 100%;
+  max-height: 10%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10%;
+  justify-content: space-between;
+}
+/* logo position */
+.header__logo {
+  padding-left: 50px;
+}
+/* logo styles */
+.logo {
+  max-width: 185px;
+  max-height: 33px;
+  width: 100%;
+}
+/* list position */
+.header__nav {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+.header__nav--list {
+  display: flex;
+  justify-content: flex-end;
+}
+.header__list--item {
+  padding: 10px;
+}
+/* list styles */
+.nav__list--header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav__list--item {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: #2f281e;
+}
+/* button position */
+.header__nav--buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 29px;
+}
+.nav__button--in {
+  padding: 11px 23px 11px 25px;
+  margin: 15px;
+}
+.nav__button--up {
+  padding: 11px 23px 11px 25px;
+  margin: 15px;
+}
+/* button styles */
+.button__white {
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #173a56;
+}
+.button__orange {
+  background: #ff9900;
+  border-radius: 4px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: #ff9900;
+}
+
+/* UNIVERSAL BODY STYLES */
+/* text styles */
+.main__head {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+  color: #2f281e;
+}
+.main__info {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #544837;
+}
+.main__sub-head {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #2f281e;
+}
+.main__head--info {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #2f281e;
+}
+/* button styles */
+.button__no-border {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #ff9900;
+  border: none;
+  background-color: white;
+}
+
+/* INTRO//SUPERPOWERS POSITION */
+/* intro container */
+.intro {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12%;
+}
+/* text postition */
+.intro__text {
+  margin-left: 40px;
+}
+.intro-head {
+  margin-bottom: 10px;
+}
+.intro-para {
+  margin-bottom: 10px;
+}
+/* button position */
+.info__button--start {
+  padding: 15px 45px;
+  margin-right: 10px;
+}
+/* image margins */
+.intro__img {
+  max-width: 100%;
+  display: block;
+  width: 600px;
+  height: 490px;
+  margin-right: 40px;
+}
+
+/* TOOLS POSITION */
+/* tools heading container */
+.tools__head {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+/* tools heading text */
+.tools__head--text {
+  max-width: 45%;
+  text-align: center;
+}
+/* tools info/middel container */
+.tools__info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/* button position */
+.tools-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15%;
+}
+/* button styles */
+.tools-button--inside {
+  padding: 15px 32px;
+}
+
+/* PROFESSIONALS POSITION */
+/* professionals container */
+.professionals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+/* text position */
+.prof__info {
+  max-width: 45%;
+  margin-right: 6%;
+  margin-left: 20px;
+}
+/* image position */
+.prof__img {
+  max-width: 100%;
+  display: block;
+  width: 600px;
+  height: 490px;
+}
+
+/* MANAGERS POSITION */
+/* managers container */
+.managers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+/* text position */
+.managers__info {
+  max-width: 45%;
+  margin-left: 20px;
+}
+/* image position */
+.managers__img {
+  max-width: 100%;
+  display: block;
+  width: 600px;
+  height: 490px;
+}
+
+/* MARKETERS POSITION */
+/* marketers container */
+.marketers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+/* text position */
+.marketers__info {
+  max-width: 45%;
+  margin-left: 20px;
+}
+/* image position */
+.marketers__img {
+  max-width: 100%;
+  display: block;
+  width: 600px;
+  height: 490px;
+}
+
+/* FOOTER */
+/* styles */
+.text__input {
+  background: #ffffff;
+  border: 1px solid #bcd0e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+/* position */
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1;
+}
+.footer__list--item {
+  padding: 5px;
+}
+.footer__nav--items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer__input {
+  margin-bottom: 10%;
+}
+.footer__button {
+  padding: 9px 15px 9px 15px;
+}
+
+/* MEDIA QUERIES */
+/* TABLET SIZE */
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+  }
+  .header__logo {
+    margin-top: 10%;
+  }
+  .header__nav {
+    margin-right: 0px;
+  }
+  .intro {
+    flex-direction: column;
+  }
+  .intro__text {
+    margin-left: 0px;
+  }
+  .professionals {
+    flex-direction: column;
+  }
+  .prof__info {
+    max-width: 100%;
+    margin-bottom: 5%;
+  }
+  .prof__img {
+    margin-bottom: 10%;
+  }
+  .managers {
+    flex-direction: column-reverse;
+  }
+  .managers__info {
+    max-width: 100%;
+    margin-bottom: 5%;
+  }
+  .marketers {
+    flex-direction: column;
+  }
+  .marketers__info {
+    max-width: 100%;
+    margin-bottom: 5%;
+  }
+  .marketers__img {
+    margin-bottom: 10%;
+  }
+}
+
+/* CELLPHONE SIZE */
+@media (max-width: 500px) {
+  .header__nav {
+    flex-direction: column;
+  }
+}
