@@ -1,0 +1,123 @@
+.container {
+  font-family: "Poppins", sans-serif;
+  background: black;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 50%;
+  padding-top: 10px;
+}
+.header__item {
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 30px;
+}
+.header__item:hover {
+  font-size: larger;
+}
+
+.main__container {
+  display: flex;
+  align-items: center;
+}
+.main__info {
+  display: flex;
+  flex-direction: column;
+  margin: 70px;
+  max-width: 500px;
+}
+.main__info--heading {
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 102px;
+  letter-spacing: -2px;
+  color: #ffffff;
+}
+.main__info--paragraph {
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
+  font-weight: 300;
+  max-width: 700px;
+  margin: 50px 0px 50px 0px;
+}
+.main__image--item {
+  max-width: 840px;
+}
+
+@media (min-width: 990px) and (max-width: 1600px) {
+  .header__mobile {
+    display: none;
+  }
+}
+@media (min-width: 600px) and (max-width: 980px) {
+  .main__image--item {
+    background-image: url(../images/Musician-Tablet1.png);
+    max-width: 620px;
+    max-height: 610px;
+  }
+
+  .header__mobile {
+    display: none;
+  }
+
+  .main__container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 610px) {
+  .main__image--item {
+    background-image: url(../images/Musician-Mobile1.png);
+    max-width: 300px;
+    height: 285px;
+    object-fit: cover;
+  }
+
+  .main__container {
+    flex-direction: column;
+  }
+
+  .main__heading {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  .main__paragraph {
+    font-size: 15px;
+    margin: 10px 10px 30px 10px;
+    max-width: 400px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .header__mobile--heading {
+    position: relative;
+    top: 20px;
+    right: 20px;
+    text-align: end;
+  }
+  .header__mobile--heading--name {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .header__mobile--items {
+    position: absolute;
+    display: none;
+  }
+  .header__mobile--items:hover ul {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

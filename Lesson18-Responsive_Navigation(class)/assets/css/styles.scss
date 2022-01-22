@@ -1,0 +1,43 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+// $green  rgb(135, 204, 119);
+// $red: rgb(236, 100, 81)
+
+body {
+  background-color: rgb(135, 204, 119);
+}
+ul {
+  list-style-type: none;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+.label {
+  border: 1px solid #000;
+  display: inline-block;
+  padding: 3px;
+  width: 100px;
+  height: 100px;
+  /* background: url("unchecked.png") no-repeat left center; */
+  /* padding-left: 15px; */
+
+  ul {
+    list-style-type: none;
+  }
+}
+input[type="checkbox"]:checked + .label {
+  background: rgb(236, 100, 81);
+  color: rgb(236, 100, 81);
+  /* background-image: url("checked.png"); */
+ 
+
+  ul {
+    color: rgb(236, 100, 81);
+    display: none;
+  }
+}
