@@ -1,0 +1,79 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.card {
+  width: 600px;
+  background-color: lightgreen;
+  border: solid black 3px;
+  border-radius: 10px;
+  transition: width 5s;
+}
+.card:hover {
+  width: 800px;
+  height: 600px;
+}
+
+.title {
+  color: red;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.info__container {
+  width: 400px;
+  height: 100px;
+  align-self: flex-end;
+}
+.info__text {
+  text-align: center;
+  margin: 50px;
+  color: blue;
+  font-size: 25px;
+}
+
+.image__container {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: image;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  background-color: red;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+@keyframes image {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
