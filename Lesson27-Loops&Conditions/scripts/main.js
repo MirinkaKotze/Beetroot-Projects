@@ -29,6 +29,9 @@ function wrapperInput() {
     else if (userInput === 9) {
         multiplication()
     }
+    else if (userInput === 10) {
+        guessGame()
+    }
 }
 wrapperInput()
 
@@ -264,18 +267,35 @@ function multiplication() {
 // Depending on what the user said, narrow down the range. So the starting range is 0 to 100, divided in half is 50. 
 // If the user said the number is > 50, the next range is 51 to 100, and so on, until the user chooses == N. 
 
-// let userNumber = prompt('Think of a number between 0 and 100 :')
-// let guess1 = prompt('Is your number > N < N or == N ?')
-// for (x=1; {
-//     if (userNumber > N) {
-
-//     }
-//     if (userNumber < N) {
-
-//     }
-//     if (userNumber === N) {
-
-//     }
-
-// }
+function guessGame() {
+    let userNumber = alert('Think of a number between 0 and 100!'); 
+    let guess = prompt('Is your number > 50 < 50 or == 50 ? Enter: <, > or ==:');
+    let min = 0;                             
+    let middle = 50;                          
+    let max = 100;                              
+    while (guess != '==') {    
+        if (guess == '>') {                        
+            min = middle;                      
+            range = max - min;                     
+            rangeHalf = range / 2;                  
+            rangeHalf = Math.floor(range / 2);      
+            let center = min + rangeHalf;           
+            middle = center;   
+            let guessAgain = prompt('Is your number > ' + middle + ' < ' + middle + ' or == ' + middle + ' ? Enter: <, > or ==:'); 
+            guess = guessAgain;
+        }
+        if (guess == '<') {                                
+            max = middle                               
+            range = max - min;                             
+            rangeHalf = range / 2;                         
+            rangeHalf = Math.floor(range / 2);             
+            let center = min + rangeHalf;                   
+            middle = center;
+            let guessAgain = prompt('Is your number > ' + middle + ' < ' + middle + ' or == ' + middle + ' ? Enter: <, > or ==:'); 
+            guess = guessAgain;
+        }
+    }    
+    answer = alert('Your number was: ' + middle + '!!')
+}
+// guessGame()
     
