@@ -152,8 +152,8 @@ function time(hours, minutes, seconds) {
 //          1 hour = 3600 seconds
 //          1 minute = 60 seconds
 function secondsTotal(hours, minutes, seconds) {
-    let hourSeconds = hours * 3600;
-    let minuteSeconds = minutes * 60;
+    const hourSeconds = hours * 3600;
+    const minuteSeconds = minutes * 60;
     totalSeconds = hourSeconds + minuteSeconds + seconds;
     console.log('The total seconds is: ' + totalSeconds);
 }
@@ -162,7 +162,7 @@ function secondsTotal(hours, minutes, seconds) {
 
 // 9. Write a function that accepts the number of seconds, translates it into hours, minutes, and seconds, and returns as a hh:mm:ss string.
 function secondsTranslate(seconds) {
-    let hours = Math.floor(seconds / 3600); 
+    const hours = Math.floor(seconds / 3600); 
     let minuteSecondsLeft = seconds % 3600; 
     let minutes = Math.floor(minuteSecondsLeft / 60);
     let secondsLeft = minuteSecondsLeft % 60;
