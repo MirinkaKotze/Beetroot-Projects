@@ -1,0 +1,129 @@
+// WHOLE SCREEN CONTAINER
+.screen {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+// HEADER STYLES + POSITION
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 30px;
+
+  &__item {
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #242635;
+    padding: 30px;
+
+    &:hover {
+      font-size: larger;
+    }
+  }
+}
+
+// MAIN CONTENT STYLES AND POSITION
+.main {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__heading {
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 102px;
+    letter-spacing: -2px;
+    color: #242635;
+    margin-top: 70px;
+  }
+  &__paragraph {
+    font-size: 22px;
+    line-height: 33px;
+    color: #242635;
+    font-weight: 300;
+    max-width: 700px;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+  }
+  &__image {
+    max-width: 840px;
+  }
+}
+
+// RESPONSIVE STYLES
+// FOR DESKTOP
+@media (min-width: 990px) and (max-width: 1400px) {
+  // Hide Mobile Header
+  .header__mobile {
+    display: none;
+  }
+}
+
+// FOR TABLET
+@media (min-width: 600px) and (max-width: 980px) {
+  // Tablet image
+  .main__image {
+    background-image: url(../images/Horses-Tablet2.png);
+    max-width: 620px;
+    max-height: 610px;
+  }
+  // Hide Mobile Header
+  .header__mobile {
+    display: none;
+  }
+}
+
+// FOR MOBILE
+@media (max-width: 610px) {
+  // Mobile image
+  .main__image {
+    background-image: url(../images/Horse-Mobile1.png);
+    max-width: 300px;
+    height: 285px;
+    object-fit: cover;
+  }
+
+  // Mobile text sizes
+  .main__heading {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  .main__paragraph {
+    font-size: 15px;
+    margin: 10px 10px 30px 10px;
+    max-width: 400px;
+  }
+
+  // Mobile heading styles
+  .header {
+    display: none;
+  }
+  .header__mobile {
+    &--heading {
+      position: relative;
+      top: 20px;
+      right: 20px;
+      text-align: end;
+
+      &--name {
+        text-decoration: none;
+        color: #242635;
+      }
+    }
+
+    &--items {
+      position: absolute;
+      display: none;
+
+      &:hover ul {
+        display: block;
+      }
+    }
+  }
+}
