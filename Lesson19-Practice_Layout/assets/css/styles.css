@@ -1,0 +1,110 @@
+.screen {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 30px;
+}
+.header__item {
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #242635;
+  padding: 30px;
+}
+.header__item:hover {
+  font-size: larger;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__heading {
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 102px;
+  letter-spacing: -2px;
+  color: #242635;
+  margin-top: 70px;
+}
+.main__paragraph {
+  font-size: 22px;
+  line-height: 33px;
+  color: #242635;
+  font-weight: 300;
+  max-width: 700px;
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+.main__image {
+  max-width: 840px;
+}
+
+@media (min-width: 990px) and (max-width: 1400px) {
+  .header__mobile {
+    display: none;
+  }
+}
+@media (min-width: 600px) and (max-width: 980px) {
+  .main__image {
+    background-image: url(../images/Horses-Tablet2.png);
+    max-width: 620px;
+    max-height: 610px;
+  }
+
+  .header__mobile {
+    display: none;
+  }
+}
+@media (max-width: 610px) {
+  .main__image {
+    background-image: url(../images/Horse-Mobile1.png);
+    max-width: 300px;
+    height: 285px;
+    object-fit: cover;
+  }
+
+  .main__heading {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  .main__paragraph {
+    font-size: 15px;
+    margin: 10px 10px 30px 10px;
+    max-width: 400px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .header__mobile--heading {
+    position: relative;
+    top: 20px;
+    right: 20px;
+    text-align: end;
+  }
+  .header__mobile--heading--name {
+    text-decoration: none;
+    color: #242635;
+  }
+  .header__mobile--items {
+    position: absolute;
+    display: none;
+  }
+  .header__mobile--items:hover ul {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,215 @@
+// UNIVERAL TEXT STYLES
+@font-face {
+  font-family: "Avenir";
+  src: url(../fonts/AvenirLTStd-Roman.otf);
+}
+.text {
+  &__heading {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+  }
+  &__sub-heading {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+  }
+  &__sub-heading--super {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #212353;
+  }
+  &__paragraph {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4b5d68;
+  }
+  &__info {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #212353;
+  }
+  &__logo {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 160%;
+    color: #212353;
+  }
+  &__footer {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #212353;
+  }
+}
+
+// UNIVERSAL BUTTON STYLES
+.button {
+  &__pink {
+    background: #f063b8;
+    border: solid 1px #f063b8;
+    border-radius: 50px;
+    padding: 15px 25px 15px 25px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    color: #ffff;
+  }
+  &__white {
+    background: #ffffff;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border: solid 1px #ffffff;
+    border-radius: 50px;
+    padding: 15px 25px 15px 25px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    color: #212353;
+    &--arrow {
+      color: purple;
+      padding-left: 10px;
+      font-size: 18px;
+    }
+  }
+}
+
+// SCREEN STYLES
+.screen {
+  background-color: #e5e5e5;
+}
+
+// MAIN CONTAINER
+.main-container {
+  margin: 20px 50px 20px 50px;
+}
+
+// BLOCK 1
+// Container
+.container__block-1 {
+  padding: 0px 80px 20px 90px;
+}
+// Block Styles
+.block-1 {
+  &__info {
+    padding: 80px 0px 80px 15px;
+    &--heading {
+      padding-bottom: 20px;
+    }
+  }
+  &__links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+}
+
+// BLOCK 2
+// Container
+.container__block-2 {
+  padding: 0px 80px 0px 90px;
+}
+// Block Styles
+.block-2 {
+  // &__info {
+  // }
+  &__about {
+    display: flex;
+    flex-direction: column;
+  }
+  &__help {
+    display: flex;
+    flex-direction: column;
+  }
+}
+// Inner Block Styles
+// Info Block
+.info {
+  &__logo {
+    padding-bottom: 50px;
+  }
+  &__adress {
+    padding-bottom: 30px;
+    &--area {
+      margin-bottom: 0px;
+    }
+  }
+  &__contact {
+    &--email {
+      margin-bottom: 0px;
+    }
+  }
+}
+// About Block
+.about {
+  &__title {
+    margin-bottom: 40px;
+  }
+  &__links {
+    margin-bottom: 10px;
+  }
+}
+// Help Block
+.help {
+  &__title {
+    margin-bottom: 40px;
+  }
+  &__links {
+    margin-bottom: 10px;
+  }
+}
+// Media Block
+.media {
+  &__title {
+    margin-bottom: 30px;
+  }
+  &__links {
+    color: #212353;
+    opacity: 0.1;
+    font-size: 45px;
+    padding-right: 10px;
+  }
+}
+
+// BLOCK 3
+// Container
+.container__block-3 {
+  padding: 0px 80px 0px 90px;
+}
+// Block Styles
+.block-3 {
+  &__footer {
+    padding: 70px 0px 0px 15px;
+    &--policy {
+      margin-bottom: 0px;
+    }
+  }
+}
