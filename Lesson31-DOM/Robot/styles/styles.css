@@ -1,0 +1,58 @@
+.screen {
+  font-family: "Poppins", sans-serif;
+  color: #030512;
+}
+
+.robot__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.robot {
+  background-color: black;
+  width: 70px;
+  height: 100%;
+}
+.robot__red-light {
+  border: solid 2px black;
+  border-radius: 50px;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.robot__yellow-light {
+  border: solid 2px black;
+  border-radius: 50px;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.robot__green-light {
+  border: solid 2px black;
+  border-radius: 50px;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.button__wrapper {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 10px;
+}
+.button__next {
+  padding: 10px;
+  font-weight: 600;
+  font-size: 25px;
+  border: solid 2px black;
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
