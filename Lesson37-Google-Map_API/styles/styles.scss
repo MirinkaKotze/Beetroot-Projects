@@ -1,0 +1,28 @@
+// SCREEN STYLES
+.screen {
+    font-family: "Poppins", sans-serif;
+    color: darkolivegreen;
+    background-color: lightgrey;
+}
+
+.header {
+    display: flex;
+    justify-content: center;         
+    font-size: 45px;
+    font-weight: 800;
+    margin: 80px;
+}
+
+.map {
+    &__container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+   
+    &__image {
+        height: 500px;
+        width: 80%;
+        
+    }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font - Poppins - Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Style - Links -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>DOM Programs #2 - Model Box</title>
+</head>
+
+<!-- LESSON 31 - DOCUMENT OBJECT MODEL -->
+<!-- 2. Create an html page with OPEN button and a modal box. -->
+<!-- The modal box should have text and a CLOSE button.  -->
+<!-- The modal box is not displayed from the beginning.  -->
+<!-- It appears when clicking the OPEN button and disappears when clicking CLOSE. -->
+
+<body class="screen">
+    <div id="buttonOpen" class="button__wrapper">
+        <button class="button__open">OPEN ME!!</button>
+    </div>   
+    <div id="modelBox" class="model-box__wrapper hidden">
+        <h1 class="model-box__text">Helloooo...!!</h1>
+        <button id="buttonClose" class="model-box__button">CLOSE</button>
+    </div>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
